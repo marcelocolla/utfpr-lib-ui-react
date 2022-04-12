@@ -8,3 +8,6 @@ npm-debug.log*
 
 # Editor settings
 .vscode
+
+# Production build
+dist/
