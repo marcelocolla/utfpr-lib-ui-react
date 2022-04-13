@@ -1,6 +1,6 @@
 image: node:latest
 
-install-job:
+install:
   stage: install
   script:
     - echo "Hello, $GITLAB_USER_LOGIN!"
@@ -20,7 +20,7 @@ test-job:
 deploy-prod:
   stage: deploy
   dependencies:
-    - install-job
+    - install
   script:
     - echo "This job deploys something from the $CI_COMMIT_BRANCH branch."
     - CI=false npm run build
