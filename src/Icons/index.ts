@@ -1,0 +1,6 @@
+export * from './ApproveIcon/ApproveIcon'
+export * from './DeleteIcon/DeleteIcon'
+export * from './DisapproveIcon/DisapproveIcon'
+export * from './EditIcon/EditIcon'
+export * from './PlusIcon/PlusIcon'
+export * from './ReportIcon/ReportIcon'
