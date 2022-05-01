@@ -1,9 +1,9 @@
 import React from 'react'
 
-import { Button } from './Button'
-import { PlusIcon } from 'Icons/PlusIcon/PlusIcon'
-import { ReportIcon } from 'Icons/ReportIcon/ReportIcon'
+import { PlusIcon } from '@ui/Icons/PlusIcon/PlusIcon'
+import { ReportIcon } from '@ui/Icons/ReportIcon/ReportIcon'
 
+import { Button } from './Button'
 import * as S from './styles'
 
 type ButtonProps = {

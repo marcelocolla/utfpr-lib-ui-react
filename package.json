@@ -27,18 +27,25 @@
     "@coll4tech:registry": "https://gitlab.com/api/v4/projects/35309254/packages/npm/"
   },
   "devDependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@trivago/prettier-plugin-sort-imports": "^3.2.0",
+    "@types/react-router-dom": "^5.1.7",
     "@types/styled-components": "^5.1.25",
     "@typescript-eslint/eslint-plugin": "^5.19.0",
     "@typescript-eslint/parser": "^5.19.0",
-    "@types/react-router-dom": "^5.1.7",
     "eslint": "^8.13.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "formik": "^2.2.8",
     "prettier": "^2.6.2",
-    "typescript": "^4.6.3",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "typescript": "^4.6.3"
   },
   "peerDependencies": {
+    "@material-ui/core": ">=4",
+    "@material-ui/icons": ">=4",
+    "formik": ">=2",
     "react": ">=16",
     "react-router-dom": ">=5",
     "styled-components": ">=5"

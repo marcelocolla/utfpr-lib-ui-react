@@ -1,11 +1,8 @@
-import { ReactNode } from 'react'
-
+import React, { ReactNode } from 'react'
 import { useHistory } from 'react-router-dom'
-
 import styled from 'styled-components'
 
-import { Spinner } from 'Spinner/Spinner'
-import React from 'react'
+import { Spinner } from '@ui/Spinner/Spinner'
 
 type ButtonProps = {
   type?: any
