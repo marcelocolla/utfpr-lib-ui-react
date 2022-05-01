@@ -43,7 +43,7 @@ type InputFieldProps = {
   children?: React.ReactNode
 }
 
-const InputField = ({ name, select, children, disabled, helperText, ...props }: InputFieldProps) => {
+export const InputField = ({ name, select, children, disabled, helperText, ...props }: InputFieldProps) => {
   const [field, meta] = useField(name)
 
   const configTextField = {
@@ -63,5 +63,3 @@ const InputField = ({ name, select, children, disabled, helperText, ...props }: 
 
   return <StyledTextField {...configTextField}>{children}</StyledTextField>
 }
-
-export default InputField

@@ -2,6 +2,7 @@ import React from 'react'
 import { useHistory } from 'react-router'
 
 import { Button } from '@ui/Button/Button'
+import { ArrowLeftIcon } from '@ui/Icons/ArrowLeftIcon'
 import { Modal } from '@ui/Modal'
 
 import { HeaderStyled, LogoutModalStyled } from './styles'
@@ -28,7 +29,7 @@ export const Header = ({ header, signOut, home: isHomePage }: HeaderProps) => {
     <>
       <HeaderStyled>
         <div onClick={handleClick}>
-          <img src="/icon/arrow-left.svg" alt="Icone de voltar" />
+          <ArrowLeftIcon />
         </div>
         <strong>{header}</strong>
       </HeaderStyled>

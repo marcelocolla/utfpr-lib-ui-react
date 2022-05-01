@@ -43,7 +43,7 @@ type PasswordFieldProps = {
   disabled?: boolean
 }
 
-const PasswordField = ({ name, label, required, ...props }: PasswordFieldProps) => {
+export const PasswordField = ({ name, label, required, ...props }: PasswordFieldProps) => {
   const { setFieldValue } = useFormikContext()
   const [field, meta] = useField(name)
   const [showPassword, setShowPassword] = useState(false)
@@ -96,5 +96,3 @@ const PasswordField = ({ name, label, required, ...props }: PasswordFieldProps) 
     </StyledFormControl>
   )
 }
-
-export default PasswordField
