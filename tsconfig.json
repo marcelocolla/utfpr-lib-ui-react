@@ -3,11 +3,6 @@
     "target": "es2016",
     "moduleResolution": "node",
     "baseUrl": ".",
-    "paths": {
-      "@ui/*": [
-        "./src/*"
-      ],
-    },
     "outDir": "./dist",
     "jsx": "react",
     "esModuleInterop": true,

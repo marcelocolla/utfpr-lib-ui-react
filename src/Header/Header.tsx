@@ -1,9 +1,9 @@
 import React from 'react'
 import { useHistory } from 'react-router'
 
-import { Button } from '@ui/Button/Button'
-import { ArrowLeftIcon } from '@ui/Icons/ArrowLeftIcon'
-import { Modal } from '@ui/Modal'
+import { Button } from 'src/Button/Button'
+import { ArrowLeftIcon } from 'src/Icons/ArrowLeftIcon'
+import { Modal } from 'src/Modal'
 
 import { HeaderStyled, LogoutModalStyled } from './styles'
 

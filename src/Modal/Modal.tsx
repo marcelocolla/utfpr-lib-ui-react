@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { PlusIcon } from '@ui/Icons/PlusIcon'
+import { PlusIcon } from 'src/Icons/PlusIcon'
 
 import * as S from './styles'
 

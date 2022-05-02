@@ -4,11 +4,6 @@
   "description": "Biblioteca de componente para ReactJS utilizado pela UTFPR",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": [
-    "dist",
-    ".babelrc",
-    "tsconfig.json"
-  ],
   "scripts": {
     "lint": "eslint 'src/**/*.{js,ts,jsx,tsx}' --quiet --fix",
     "test": "echo \"Error: no test specified\" && exit 1",

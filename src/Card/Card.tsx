@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { Button } from '@ui/Button'
-import { DeleteIcon } from '@ui/Icons/DeleteIcon'
-import { EditIcon } from '@ui/Icons/EditIcon'
-import { Modal } from '@ui/Modal'
+import { Button } from 'src/Button'
+import { DeleteIcon } from 'src/Icons/DeleteIcon'
+import { EditIcon } from 'src/Icons/EditIcon'
+import { Modal } from 'src/Modal'
 
 import * as S from './styles'
 
