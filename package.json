@@ -1,9 +1,15 @@
 {
   "name": "@coll4tech/utfpr-lib-ui-react",
-  "version": "1.0.10",
+  "version": "1.0.9",
   "description": "Biblioteca de componente para ReactJS utilizado pela UTFPR",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "src",
+    "dist",
+    "tsconfig.json",
+    ".babelrc"
+  ],
   "scripts": {
     "lint": "eslint 'src/**/*.{js,ts,jsx,tsx}' --quiet --fix",
     "test": "echo \"Error: no test specified\" && exit 1",
