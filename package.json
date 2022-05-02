@@ -1,6 +1,6 @@
 {
   "name": "@coll4tech/utfpr-lib-ui-react",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Biblioteca de componente para ReactJS utilizado pela UTFPR",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
