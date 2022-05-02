@@ -26,7 +26,7 @@ export const Header = ({ header, signOut, home: isHomePage }: HeaderProps) => {
   }
 
   return (
-    <>
+    <React.Fragment>
       <HeaderStyled>
         <div onClick={handleClick}>
           <ArrowLeftIcon />
@@ -44,6 +44,6 @@ export const Header = ({ header, signOut, home: isHomePage }: HeaderProps) => {
           </Button>
         </LogoutModalStyled>
       </Modal>
-    </>
+    </React.Fragment>
   )
 }

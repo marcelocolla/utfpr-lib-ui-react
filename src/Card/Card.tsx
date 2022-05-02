@@ -44,7 +44,7 @@ export const Card = (props: CardProps) => {
   }
 
   return (
-    <>
+    <React.Fragment>
       <S.Card key={props.key} onClick={() => setOpen(!open)}>
         <div className={open ? 'card-open' : 'card-closed'}>
           {/* parte esquerda, avatar */}
@@ -91,6 +91,6 @@ export const Card = (props: CardProps) => {
           </Button>
         </DeleteModalStyled>
       </Modal>
-    </>
+    </React.Fragment>
   )
 }
