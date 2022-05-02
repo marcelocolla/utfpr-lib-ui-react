@@ -1,0 +1,13 @@
+.DS_Store
+
+# node modules
+node_modules/
+
+# Log files
+npm-debug.log*
+
+# Editor settings
+.vscode
+
+# Production build
+dist/
