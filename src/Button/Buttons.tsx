@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { PlusIcon } from 'src/Icons/PlusIcon/PlusIcon'
-import { ReportIcon } from 'src/Icons/ReportIcon/ReportIcon'
+import { PlusIcon } from 'Icons/PlusIcon/PlusIcon'
+import { ReportIcon } from 'Icons/ReportIcon/ReportIcon'
 
 import { Button } from './Button'
 import * as S from './styles'
