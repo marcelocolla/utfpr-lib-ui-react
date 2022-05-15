@@ -4,13 +4,16 @@ import styled from 'styled-components'
 
 import { Spinner } from 'Spinner'
 
+type ButtonChildren = ReactNode
+
 type ButtonProps = {
+  title?: string
   type?: any
   name: string
   path?: string
   loading?: boolean
   disabled?: boolean
-  children: ReactNode
+  children: ButtonChildren
   onClickFunction?: () => void
 }
 

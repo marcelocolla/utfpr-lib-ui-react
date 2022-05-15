@@ -15,15 +15,15 @@ export const ButtonDeseg = (props: ButtonProps) => {
   return (
     <S.ButtonWrapper>
       {/* não sei adicionar icone*/}
-      <Button type="button" name="relatorioButton" onClickFunction={props.onClickLeft}>
+      <Button type="button" name="relatorioButton" onClickFunction={props.onClickLeft} title="Relatório">
         <ReportIcon color="white" />
       </Button>
 
-      <Button type="button" name="solicitacoesButton" path="/solicitacoes">
+      <Button type="button" name="solicitacoesButton" path="/solicitacoes" title="Solicitações">
         Solicitações
       </Button>
 
-      <Button type="button" name="cadastroButton" onClickFunction={props.onClickRight}>
+      <Button type="button" name="cadastroButton" onClickFunction={props.onClickRight} title="Cadastrar usuário">
         <PlusIcon color="white" />
       </Button>
     </S.ButtonWrapper>
@@ -33,7 +33,7 @@ export const ButtonDeseg = (props: ButtonProps) => {
 export const ButtonProfessor = () => {
   return (
     <S.ButtonWrapper>
-      <Button type="button" name="solicitacoesButton" path="/solicitacoes">
+      <Button type="button" name="solicitacoesButton" path="/solicitacoes" title="Solicitações">
         Solicitações
       </Button>
     </S.ButtonWrapper>
@@ -43,11 +43,11 @@ export const ButtonProfessor = () => {
 export const ButtonVigilante = () => {
   return (
     <S.ButtonWrapper>
-      <Button type="button" name="visitasButton" path="/visitas">
+      <Button type="button" name="visitasButton" path="/visitas" title="Visitas">
         Visitas
       </Button>
 
-      <Button type="button" name="liberacoesButton" path="/liberacoes">
+      <Button type="button" name="liberacoesButton" path="/liberacoes" title="Liberações">
         Liberações
       </Button>
     </S.ButtonWrapper>
