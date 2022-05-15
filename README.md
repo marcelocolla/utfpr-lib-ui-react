@@ -1,6 +1,9 @@
 # utfpr-lib-ui-react
 
-Biblioteca de componente para ReactJS utilizado pela UTFPR
+Biblioteca de componente para ReactJS utilizado pela UTFPR.
+
+## Wiki
+1. [Configurar autenticação de pacotes privados](https://gitlab.com/utfprfabricadesoftware/utfpr-lib-ui-react/-/wikis/Autenticar-no-Registro-de-Pacotes) 
 
 ## Getting started
 
