@@ -1,3 +1,5 @@
+export * from './Theme/ThemeStyles';
+
 export * from './Button'
 export * from './Icons'
 export * from './Spinner'
