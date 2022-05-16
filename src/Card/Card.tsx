@@ -8,6 +8,8 @@ import { Modal } from 'Modal'
 
 import * as S from './styles'
 
+const avatar = require('assets/dog.png')
+
 export const ButtonWrapperStyled = styled.div`
   height: auto;
   display: flex;
@@ -49,7 +51,7 @@ export const Card = (props: CardProps) => {
         <div className={open ? 'card-open' : 'card-closed'}>
           {/* parte esquerda, avatar */}
           <div className="imageWrapper">
-            <img src={props.imageUrl ?? '/dog.png'} alt="avatar" />
+            <img src={props.imageUrl ?? avatar} alt="avatar" />
           </div>
 
           {/* parte direita, informações gerais */}
