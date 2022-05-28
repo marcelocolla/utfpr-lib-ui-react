@@ -56,12 +56,10 @@ export const Card = (props: CardProps) => {
 
           {/* parte direita, informações gerais */}
           <header>
-            <h1>{props.name}</h1>
+            <h3>{props.name}</h3>
 
-            <div>
-              <span>{props.leftInfo}</span>
-              <strong>{props.rightInfo}</strong>
-            </div>
+            <p>{props.leftInfo}</p>
+            <strong>{props.rightInfo}</strong>
           </header>
         </div>
 

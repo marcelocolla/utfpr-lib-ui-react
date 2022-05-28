@@ -48,13 +48,13 @@ export const CardRoot = styled.section`
       flex-direction: column;
       justify-content: center;
 
-      h1 {
+      h3 {
         font-weight: bold;
         font-size: 17px;
         line-height: 23px;
       }
 
-      span,
+      p,
       strong {
         font-size: 15px;
         line-height: 20px;
@@ -63,15 +63,10 @@ export const CardRoot = styled.section`
 
       div {
         width: 100%;
-        height: fit-content;
 
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-
-        span {
+        p {
           font-weight: normal;
+          margin-bottom: 1rem;
         }
 
         strong {
