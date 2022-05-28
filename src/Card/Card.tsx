@@ -6,7 +6,7 @@ import { DeleteIcon } from 'Icons/DeleteIcon'
 import { EditIcon } from 'Icons/EditIcon'
 import { Modal } from 'Modal'
 
-import * as S from './styles'
+import { CardRoot } from './styles'
 
 const avatar = require('assets/dog.png')
 
@@ -28,7 +28,7 @@ const DeleteModalStyled = styled.div`
 
 type CardProps = {
   imageUrl?: string
-  key: number
+  key: number | string
   name: string
   leftInfo: string
   rightInfo: string
@@ -47,7 +47,7 @@ export const Card = (props: CardProps) => {
 
   return (
     <React.Fragment>
-      <S.Card key={props.key} onClick={() => setOpen(!open)}>
+      <CardRoot key={props.key} onClick={() => setOpen(!open)}>
         <div className={open ? 'card-open' : 'card-closed'}>
           {/* parte esquerda, avatar */}
           <div className="imageWrapper">
@@ -81,7 +81,7 @@ export const Card = (props: CardProps) => {
             </Button>
           </ButtonWrapperStyled>
         </aside>
-      </S.Card>
+      </CardRoot>
 
       <Modal visible={confirm} close={handleClose} title="Deseja remover esse registro?">
         <DeleteModalStyled>

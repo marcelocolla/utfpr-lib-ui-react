@@ -2,11 +2,13 @@ import React from 'react'
 
 type DeleteIconProps = {
   color: string
+  width?: string
+  height?: string
 }
 
-export const DeleteIcon = ({ color }: DeleteIconProps) => {
+export const DeleteIcon = ({ color, width = '20', height = '20' }: DeleteIconProps) => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 64 64">
+    <svg xmlns="https://www.w3.org/2000/svg" width={width} height={height} viewBox="0 0 64 64">
       <path
         fill="#010101"
         fillOpacity="0.1"

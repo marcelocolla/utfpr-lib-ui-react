@@ -2,14 +2,18 @@ import React from 'react'
 
 type EditIconProps = {
   color: string
+  width?: string
+  height?: string
 }
 
-export const EditIcon = ({ color }: EditIconProps) => {
+export const EditIcon = ({ color, width = '20', height = '20' }: EditIconProps) => {
   return (
     <svg
       id="i-edit"
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns="https://www.w3.org/2000/svg"
       viewBox="0 0 32 32"
+      width={width}
+      height={height}
       fill="#000"
       fillOpacity="0.1"
       stroke={color}

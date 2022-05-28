@@ -2,16 +2,18 @@ import React from 'react'
 
 type DisapproveIconProps = {
   color: string
+  width?: string
+  height?: string
 }
 
-export const DisapproveIcon = ({ color }: DisapproveIconProps) => {
+export const DisapproveIcon = ({ color, width = '20', height = '20' }: DisapproveIconProps) => {
   return (
     <svg
       version="1.1"
       id="Layer_1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="20px"
-      height="20px"
+      xmlns="https://www.w3.org/2000/svg"
+      width={width}
+      height={height}
       viewBox="0 0 72.434 72.44"
     >
       <path

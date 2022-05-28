@@ -1,42 +1,6 @@
 import styled from 'styled-components'
 
-export const CardsWrapper = styled.section`
-  width: 100%;
-  height: 100vh;
-
-  padding: 6rem 4.5rem 4rem;
-
-  display: flex;
-  flex-direction: column;
-
-  align-items: center;
-
-  background: rgb(245, 245, 248);
-
-  strong {
-    font-size: 1.8rem;
-    line-height: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 4rem;
-  }
-
-  .cardsWrapper {
-    width: 100%;
-    height: 80%;
-
-    padding: 0 0.5rem;
-
-    overflow-y: auto;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    gap: 1.6rem;
-  }
-`
-
-export const Card = styled.section`
+export const CardRoot = styled.section`
   width: 100%;
   max-width: 40rem;
   position: relative;

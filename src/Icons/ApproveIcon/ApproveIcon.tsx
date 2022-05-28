@@ -2,11 +2,13 @@ import React from 'react'
 
 type ApproveIconProps = {
   color: string
+  width?: string
+  height?: string
 }
 
-export const ApproveIcon = ({ color }: ApproveIconProps) => {
+export const ApproveIcon = ({ color, width = '20', height = '20' }: ApproveIconProps) => {
   return (
-    <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <svg width={width} height={height} viewBox="0 0 20 20" version="1.1" xmlns="https://www.w3.org/2000/svg">
       <g id="Icons" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
         <g id="Rounded" transform="translate(-646.000000, -200.000000)">
           <g id="Action" transform="translate(100.000000, 100.000000)">

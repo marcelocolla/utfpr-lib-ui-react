@@ -2,11 +2,13 @@ import React from 'react'
 
 type ReportIconProps = {
   color: string
+  width?: string
+  height?: string
 }
 
-export const ReportIcon = ({ color }: ReportIconProps) => {
+export const ReportIcon = ({ color, width = '38', height = '38' }: ReportIconProps) => {
   return (
-    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width={width} height={height} viewBox="0 0 38 38" fill="none" xmlns="https://www.w3.org/2000/svg">
       <path
         d="M23.6883 21.7108H13.433C12.7913 21.7108 12.2731 22.2156 12.2731 22.8572C12.2731 23.4989 12.7913 24.0061 13.433 24.0061H23.6883C24.3287 24.0061 24.8493 23.4989 24.8493 22.8572C24.8506 22.2156 24.3299 21.7108 23.6883 21.7108Z"
         fill={color}
