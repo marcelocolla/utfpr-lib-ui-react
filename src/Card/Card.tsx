@@ -8,6 +8,7 @@ import { Modal } from 'Modal'
 
 import { CardRoot } from './styles'
 
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const avatar = require('assets/dog.png')
 
 export const ButtonWrapperStyled = styled.div`

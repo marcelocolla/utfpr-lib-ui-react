@@ -11,3 +11,4 @@ npm-debug.log*
 
 # Production build
 dist/
+metrics/artifacts
